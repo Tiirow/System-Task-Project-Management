@@ -1,54 +1,100 @@
 # 🚀 System Task & Project Management
-A modern and responsive Single Admin Dashboard built with React and Tailwind CSS for managing tasks and projects efficiently.
+
+A modern and responsive **Full Stack Task & Project Management System** built with **React**, **Tailwind CSS**, and **Django REST Framework (DRF)**.
+
+The application allows administrators to efficiently manage tasks and projects through a clean, responsive dashboard, powered by a secure REST API.
+
+---
 
 ## ✨ Features
 
-- ✅ Add new tasks
+- ✅ Create new tasks
+- ✏️ Update existing tasks
 - 🗑️ Delete tasks
-- 📋 Organize and manage projects
-- 🎯 Track task progress
+- 📂 Organize and manage projects
+- 📊 Track task progress
+- 🔗 Frontend connected to Django REST API
+- ⚡ Fast and responsive user interface
+- 🎨 Modern UI built with Tailwind CSS
 - 📱 Fully responsive design
-- ⚡ Fast and modern user interface
-- 🎨 Clean UI built with Tailwind CSS
+- 🔒 RESTful backend architecture
+
+---
 
 ## 🛠️ Technologies Used
 
-- React
-- JavaScript
+### Frontend
+- React.js
+- JavaScript (ES6+)
 - Tailwind CSS
 - HTML5
 - CSS3
+- Axios
 
-## 📂 Installation
+### Backend
+- Python
+- Django
+- Django REST Framework (DRF)
+- SQLite
+- REST API
 
-Clone the repository:
+---
 
-bash
-git clone https://github.com/Tiirow/System-Task-Project-Management.git
+## 📁 Project Structure
 
+```
+System-Task-Project-Management/
+│
+├── frontend/          # React Frontend
+├── backend/           # Django REST Framework Backend
+├── README.md
+└── .gitignore
+```
 
-Navigate to the project folder:
+---
 
-bash
-cd System-Task-Project-Management
+## 🚀 Getting Started
 
+### Clone the repository
 
-Install dependencies:
+```bash
+git clone https://github.com/your-username/System-Task-Project-Management.git
+```
 
-bash
+### Frontend
+
+```bash
+cd frontend
 npm install
-
-
-Start the development server:
-
-bash
 npm run dev
+```
 
+### Backend
 
-## 🎯 Purpose
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
 
-This project was created to practice building modern web applications using React and Tailwind CSS while implementing task and project management functionality.
+---
+
+## 🎯 Future Improvements
+
+- User Authentication (JWT)
+- Role-Based Access Control
+- Search & Filter Tasks
+- File Upload Support
+- Notifications
+- Dashboard Analytics
+
+---
 
 ## 👨‍💻 Author
 
-Mohamed Adan Mohamed
+**Mohamed Adan Mohamed**
+
+GitHub: https://github.com/Tiirow
